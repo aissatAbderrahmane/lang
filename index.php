@@ -4,6 +4,7 @@ $returnAddr = 0;
 $stack = []; // To-do transfer to function 
 $var = []; // To-do transfer to function local vars 
 
+
 function store($i){
   global $var,$stack;
   $val = array_pop($stack);
