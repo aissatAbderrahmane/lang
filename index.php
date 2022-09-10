@@ -1,4 +1,8 @@
 <?php
+// How to : 
+// php index.php 
+// enjoy
+
 $soft = [[],[]]; // To-Do ALL CODES [[ GLOBAL VARIABLES  ][ EXECUTIONs ]]
 $returnAddr = 0;
 $stack = []; // To-do transfer to function 
@@ -16,7 +20,7 @@ function load($i){
   array_push($stack, $var[$i]);
 }
 
-function ise(){ // IS Equal
+function ise(){ // IS Equal 
   global $var, $stack;
   if(count($stack) >=2){
     $b = array_pop($stack);
