@@ -3,7 +3,7 @@ $soft = [[],[]]; // To-Do ALL CODES [[ GLOBAL VARIABLES  ][ EXECUTIONs ]]
 $returnAddr = 0;
 $stack = []; // To-do transfer to function 
 $var = []; // To-do transfer to function local vars 
-
+ 
 
 function store($i){
   global $var,$stack;
